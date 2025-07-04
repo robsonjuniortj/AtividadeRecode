@@ -4,36 +4,83 @@ Repositório contendo todas as minhas atividades desenvolvidas durante o curso *
 
 ---
 
-## 📁 Estrutura de pastas
+# 🌍 Grupo Fly Together
 
-Cada pasta representa um projeto específico. A seguir, uma visão geral:
-
-- **Projeto1/** – *Título do projeto 1*  
-  - 💡 **Descrição**: breve explicação do objetivo e tecnologias utilizadas (ex.: HTML, CSS, JavaScript).  
-  - 🛠 **Funcionalidades principais**: destaque as funcionalidades ou desafios implementados.  
-  - ⚙️ **Como executar**:
-    ```bash
-    cd Projeto1
-    abra o arquivo `index.html` no navegador
-    ```
-- **Projeto2/** – *Título do projeto 2*  
-  - 💡 **Descrição**: ...
-  - 🛠 **Funcionalidades**: ...
-  - ⚙️ **Execução**: ...
-- *(Repita para cada pasta/projeto presente no repositório)*
+Website de viagens completo e responsivo com navegação intuitiva, páginas separadas e cards personalizados para promoções e destinos.
 
 ---
 
-## 💻 Tecnologias utilizadas
+## 📁 Estrutura do Projeto
 
-- Front‑end: HTML5, CSS3, JavaScript (ES6+)
-- *Outras tecnologias específicas de cada projeto (exemplo: Bootstrap, APIs externas, frameworks JS, etc.)*
+/
+├── index.html # Página inicial com destaques
+├── destinos.html # Página com destinos turísticos detalhados
+├── promocoes.html # Página de promoções com descontos
+├── ofertas.html # Outras ofertas disponíveis
+├── checkin.html # Página de check-in online
+├── contato.html # Página de contato com formulário
+│
+├── css/
+│ └── style.css # Estilização geral e responsiva
+│
+├── js/
+│ └── script.js # Funcionalidades JS básicas
+│
+├── img/
+│ ├── logo.png
+│ ├── santiago.jpg
+│ ├── miami.jpg
+│ ├── lisboa.jpg
+│ ├── fortaleza.jpg
+│ ├── salvador.jpg
+│ ├── portoalegre.jpg
+│ ├── riodejaneiro.jpg
+│ ├── maceio.jpg
+│ ├── noronha.jpg
+│ ├── jericoacoara.jpg
+│ ├── buenosaires.jpg
+│ ├── gramado.jpg
+│ ├── paris.jpg
+│ └── amazonia.jpg
+
+yaml
+Copiar
+Editar
 
 ---
 
-## 🧩 Como contribuir
+## ✅ Funcionalidades
 
-1. Faça um fork deste repositório  
-2. Crie uma nova branch:  
-   ```bash
-   git checkout -b feature/nome-da-feature
+- Menu de navegação com submenu suspenso (Destinos → Promoções e Ofertas)
+- Cards diferenciados para:
+  - **Destinos turísticos** (foco em atrativos e experiências)
+  - **Promoções** (foco em preços e descontos)
+- Layout 100% responsivo (desktop, tablet e mobile)
+- Rodapé fixado no fim da tela, mesmo em páginas curtas
+- Formulário de newsletter e check-in funcional
+- Estrutura clara e modular com pastas para CSS, JS e imagens
+
+---
+
+## 🧩 Tecnologias Utilizadas
+
+- **HTML5** (estrutura semântica)
+- **CSS3** (estilização responsiva com Flexbox e Grid)
+- **JavaScript Puro** (newsletter e outros recursos)
+
+---
+
+## 💡 Sugestões de Melhorias Futuras
+
+- Integração com API de destinos (ex: via Skyscanner ou Google Maps)
+- Área de login e painel para usuários
+- Painel administrativo para gerenciar pacotes
+
+---
+
+## 👤 Autor
+
+**Robson Junior**  
+Site desenvolvido em 2025 para prática de HTML, CSS e JavaScript com foco em design responsivo e organização de projetos.
+
+---
