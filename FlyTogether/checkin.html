@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Check-in - Grupo Fly Together</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="logo">
+          <img src="img/logo.png" alt="Logo Grupo Fly Together" />
+        </div>
+        <ul class="nav-menu">
+          <li><a href="index.html">Home</a></li>
+          <li class="dropdown">
+            <a href="destinos.html">Destinos</a>
+            <ul class="dropdown-menu">
+              <li><a href="promocoes.html">Promoções</a></li>
+              <li><a href="ofertas.html">Ofertas</a></li>
+            </ul>
+          </li>
+          <li><a href="checkin.html">Check-in</a></li>
+          <li><a href="contato.html">Contato</a></li>
+        </ul>
+        <div class="search">
+          <input type="text" placeholder="Lugares" />
+          <button>Buscar</button>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="checkin">
+        <h1>Check-in Online</h1>
+        <p>
+          Facilite sua viagem fazendo seu check-in online de forma rápida e
+          segura.
+        </p>
+        <form class="checkin-form">
+          <label for="reserva">Número da Reserva:</label>
+          <input
+            type="text"
+            id="reserva"
+            placeholder="Digite o número da sua reserva"
+            required
+          />
+
+          <label for="documento">Documento:</label>
+          <input
+            type="text"
+            id="documento"
+            placeholder="Documento (RG ou CPF)"
+            required
+          />
+
+          <button type="submit">Fazer Check-in</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-content">
+        <p>
+          <a href="#">Termos de Uso</a> |
+          <a href="#">Política de Privacidade</a> |
+          <a href="#">Configurações de Privacidade</a>
+        </p>
+        <p>&copy; 2025 Grupo Fly Together. Criado por Robson Junior.</p>
+      </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
